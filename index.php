@@ -1,45 +1,20 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    
-    <? include_once './head.php';?>
-    
+
+    <head>
+        <!-- Meta tags Obrigatórias -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="./assets/css/main.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+        <title>Gilson Colchões</title>
+    </head>
+
     <body class="text-justify">
-
-        <header>
-
-            <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-menu">
-                <div class="container">
-
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Alterna navegação">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-
-                    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-
-                        <a class="navbar-brand" href="#">
-                            <img src="./assets/brand/logo.svg" width="180" class="d-inline-block align-top" alt="Gilson Colchões">
-                        </a>
-
-                        <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Inicio</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#quem">Quem Somos</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Produtos</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Fale Conosco</a>
-                            </li>
-                        </ul>
-                    </div>
-
-                </div>
-            </nav>
-            <div class="clearfix"></div>
-        </header>
+        <? include_once './head.php'; ?>
 
         <div id="carouselExampleIndicators" class="carousel slide mt-5 pt-2" data-ride="carousel">
             <ol class="carousel-indicators">
@@ -128,7 +103,7 @@
             <div class="container mt-5">
                 <div class="row">
 
-                    <div class="col-sm-4">
+                    <div class="col-sm-4 my-3">
                         <div class="card" >
                             <img class="card-img-top" src="assets/imagens/produtos__foto_8.jpg" alt="Imagem de capa do card">
                             <div class="card-body">
@@ -139,7 +114,8 @@
                         </div>
                     </div>
 
-                    <div class="col-sm-4">
+
+                    <div class="col-sm-4 my-3">
                         <div class="card" >
                             <img class="card-img-top" src="assets/imagens/produtos__foto_9.jpg" alt="Imagem de capa do card">
                             <div class="card-body">
@@ -150,7 +126,41 @@
                         </div>
                     </div>
 
-                    <div class="col-sm-4">
+                    <div class="col-sm-4 my-3">
+                        <div class="card" >
+                            <img class="card-img-top" src="assets/imagens/produtos__foto_10.jpg" alt="Imagem de capa do card">
+                            <div class="card-body">
+                                <a href="#">
+                                    <h5 class="card-title">Floral</h5>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4 my-3">
+                        <div class="card" >
+                            <img class="card-img-top" src="assets/imagens/produtos__foto_8.jpg" alt="Imagem de capa do card">
+                            <div class="card-body">
+                                <a href="#">
+                                    <h5 class="card-title">Top Plus 30</h5>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-sm-4 my-3">
+                        <div class="card" >
+                            <img class="card-img-top" src="assets/imagens/produtos__foto_9.jpg" alt="Imagem de capa do card">
+                            <div class="card-body">
+                                <a href="#">
+                                    <h5 class="card-title">Top Plus 35</h5>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4 my-3">
                         <div class="card" >
                             <img class="card-img-top" src="assets/imagens/produtos__foto_10.jpg" alt="Imagem de capa do card">
                             <div class="card-body">
@@ -252,17 +262,7 @@
 
         </div>
 
+        <? include_once './footer.php'; ?>
 
-
-
-
-
-
-
-        <!-- JavaScript (Opcional) -->
-        <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     </body>
 </html>
