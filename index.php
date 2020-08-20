@@ -14,7 +14,8 @@
     </head>
 
     <body class="text-justify">
-        <? include_once './head.php'; ?>
+        <!-- HEADER -->
+        <? include_once './header.php'; ?>
 
         <div id="carouselExampleIndicators" class="carousel slide mt-5 pt-2" data-ride="carousel">
             <ol class="carousel-indicators">
